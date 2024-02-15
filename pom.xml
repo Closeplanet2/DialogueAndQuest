@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.pandapulsestudios</groupId>
+    <artifactId>DialogueAndQuest</artifactId>
+    <version>1.0.1-a</version>
+    <packaging>jar</packaging>
+    <name>DialogueAndQuest</name>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>pulsecore</id>
+            <url>https://maven.pkg.github.com/closeplanet2/PulseCore</url>
+        </repository>
+        <repository>
+            <id>pulseconfig</id>
+            <url>https://maven.pkg.github.com/closeplanet2/PulseConfig</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot</artifactId>
+            <version>1.20.4-R0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.pandapulsestudios</groupId>
+            <artifactId>pulsecore</artifactId>
+            <version>1.1.12-a</version>
+        </dependency>
+        <dependency>
+            <groupId>com.pandapulsestudios</groupId>
+            <artifactId>pulseconfig</artifactId>
+            <version>1.1.10-a</version>
+        </dependency>
+    </dependencies>
+
+</project>
